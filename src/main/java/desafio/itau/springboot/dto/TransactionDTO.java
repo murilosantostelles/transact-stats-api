@@ -8,7 +8,6 @@ import java.time.OffsetDateTime;
 public class TransactionDTO {
 
     @NotNull
-    @Min(0)
     private Double valor;
 
     @NotNull
